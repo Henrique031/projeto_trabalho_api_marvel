@@ -22,7 +22,7 @@ const hash = '2be70ded843772f83c1267a51522e544'
 
 const getCards = () => {
 
-    const url = `https://gateway.marvel.com:443/v1/public/characters?ts=${ts}&apikey=${apiKey}&hash=${hash}&limit=100`
+    const url = `https://gateway.marvel.com:443/v1/public/characters?ts=${ts}&apikey=${apiKey}&hash=${hash}&limit=50`
     // console.log(url)
 
     fetch(url)
