@@ -15,29 +15,47 @@
         <img src="./imgs/logo-remove.png" alt="Logo Marvel">
     </header>
 
-    <form action="" method="get">
-
+    <form>
         <div class="pesquisa">
-
-            <button type="submit">
+            <button type="button" id="btn_submit">
                 <picture>
-                    <img src="./imgs/icon_search.png" alt="Ícone pesquisa">
+                    <img src="./imgs/Escudo-capitao.png" alt="Ícone pesquisa">
                 </picture>
             </button>
             <input type="text" placeholder="Nome do Herói" id="search_bar">
         </div>
-
     </form>
 
+    
+
     <section class="card_container" id="conteudo">
-        
+            <!-- <div class="card" id="card" onclick="() => console.log('Chamou')">
+                <div class="div_foto_heroi">
+                    <figure>
+                        <img src="http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg" alt="foto">
+                    </figure>
+                </div>
+                <h2 class="nome_heroi" id="nome_heroi">3D Man</h2>
+            </div> -->
     </section>
+
+    <div id="fade" class="hide"></div>
+    <div id="modal" class="hide">
+        <div class="modal-header">
+            <h2 id="nome-heroi-modal"></h2>
+                <button id="close-modal">Fechar</button>
+        </div>
+        <div class="modal-body">
+            <p id="desc-heroi-modal"></p>
+        </div>
+    </div>
 
     <footer>
         <div class="container_footer">
             <h1>Trabalho acadêmico</h1>
         </div>
     </footer>
+
 </body>
 
 </html>
